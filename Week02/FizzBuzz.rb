@@ -1,13 +1,10 @@
 arr = Array.new
 print "Nhap so luong phan tu: "
 n = gets.to_i
-count = 0;
-while count < n do
-  count = count + 1
-  print "Nhap phan tu thu #{count} trong mang: "
+(1..n).each do |index|
+  print "Nhap phan tu thu #{index} trong mang: "
   x = gets.to_i
   arr.push x
-
 end
 arr.each do |value|
   if value % 6 == 0
