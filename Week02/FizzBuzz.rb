@@ -2,7 +2,7 @@ arr = Array.new
 print "Nhap so luong phan tu: "
 n = gets.to_i
 count = 0;
-while count <= n do
+while count < n do
   count = count + 1
   print "Nhap phan tu thu #{count} trong mang: "
   x = gets.to_i
